@@ -1,0 +1,106 @@
+    1  ls
+    2  sudo apt-get update
+    3  sudo apt-get install ssh
+    4  sudo apt-get install git
+    5  sudo apt-get install git-core 
+    6  mkdir repo_1
+    7  mkdir git
+    8  cd git/
+    9  mkdir repo_1
+   10  pwd
+   11  cd repo_1/
+   12  git init --bare
+   13  sudo apt-get install ubuntu-gnome-desktop
+   14  reboot
+   15  sudo reboot
+   16  ls
+   17  cd
+   18  cd .ssh/
+   19  sl
+   20  ;s
+   21  ls
+   22  touch authorized_keys
+   23  ls
+   24  sudo adduser git
+   25  su git
+   26  ifconfig 
+   27  cd /opt/git
+   28  cd /opt/
+   29  mkdir git
+   30  sudo mkdir git
+   31  ls
+   32  cd git
+   33  mkdir project.git
+   34  sudo mkdir project.git
+   35  cd project.git/
+   36  git init --bare
+   37  sudo git init --bare
+   38  ll
+   39  cd .
+   40  cd ..
+   41  chmod 777 -R git 
+   42  sudo chmod 777 -R git 
+   43  cd .. 
+   44  sudo chmod 777 -R opt
+   45  ll
+   46  ll opt
+   47  cd opt/git/
+   48  ls
+   49  cd project.git/
+   50  ls
+   51  sudo poweroff
+   52  ls
+   53  cd mohammd
+   54  mkdir mohad
+   55  cd mohad/
+   56  sudo apt-get install tcl
+   57  sudo apt-get install gcc-mingw-core
+   58  sudo apt-get install gcc
+   59  sudo apt-get install g++
+   60  sudo apt-get install libssl-dev
+   61  locate libsql
+   62  locate collect2: error: ld returned 1 exit status
+   63  locate ./.libs/libsqlcipher.so
+   64  locate libsqlcipher.so
+   65  locate libsqlcipher
+   66  clear
+   67  gcc -g -Wall -O0 -shared -std=c99 -fno-strict-aliasing   -DPLT_SYSTEM_LINUX=1 -DPLT_USE_BUFFERED_STREAMS=1 -DPLT_SERVER_TRUNC_ONLY=1 -DNDEBUG   -DOV_SYSTEM_LINUX=1    -I../../../plt/include/ -I../../../ks/include/ -I../../include/ -I../../model/ -I../../source/codegen/ -I../../source/builder/ -I../../source/example/ -I../../source/kshist/ -I../../source/dynov/ -I../../source/tasklib/ -I../../source/dbparse/ -I../../source/dbdump/ -I../../../../libml/ -I../../include/runtimeserver/ -I. -c ../../source/dbutil/ov_dbutil.c -o ov_dbutil.o
+   68  locate tcl
+   69  locate tclConfig.sh
+   70  locate libcr
+   71  clear
+   72  sudo apt-get install mingw-gcc-core
+   73  openssl version
+   74  sudo apt-get install libssl-dev
+   75  locate  libcrypto.a 
+   76  find  libcrypto.a 
+   77  locate  libcrypto
+   78  cd 
+   79  mkdir sql
+   80  cd sql/
+   81  git clone https://github.com/sqlcipher/sqlcipher.git
+   82  ls
+   83  cd sqlcipher/
+   84  ls
+   85  ./configure --enable-tempstore=yes CFLAGS="-DSQLITE_HAS_CODEC" LDFLAGS="/usr/lib/i386-linux-gnu/libcrypto.a"
+   86  make
+   87  ./configure --enable-tempstore=yes CFLAGS="-DSQLITE_HAS_CODEC" LDFLAGS="-lcrypto"
+   88  make
+   89  ./configure --enable-tempstore=yes CFLAGS="-DSQLITE_HAS_CODEC" LDFLAGS="/usr/lib/i386-linux-gnu/libcrypto.a"
+   90  ls
+   91  less sqlcipher.pc
+   92  ls
+   93  make --ignore-errors
+   94  ls
+   95  vi Makefile
+   96  ./configure --enable-tempstore=yes CFLAGS="-DSQLITE_HAS_CODEC" LDFLAGS="/usr/lib/i386-linux-gnu/libcrypto.a"
+   97  ./configure --enable-tempstore=yes CFLAGS="-DSQLITE_HAS_CODEC" LDFLAGS="/usr/lib/i386-linux-gnu/libcrypto.a" --with-tcl="/usr/lib/i386-linux-gnu/libtcl8.6.so"
+   98  ./configure --disable-tcl CFLAGS="-DSQLITE_HAS_CODEC -Iopenssl_binaries/include" LDFLAGS="openssl_binaries/lib/libeay32.lib /usr/lib/gcc/i686-pc-mingw32/4.5.2/libgcc.a
+   99  exit
+  100  cd Desktop/
+  101  ls
+  102  mkdir repo_1
+  103  cd repo_1/
+  104  ls
+  105  touch kjasd
+  106  history > his
